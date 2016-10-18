@@ -1,0 +1,110 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,BG2_png,10000_png,10001_png,10002_png,10003_png,10004_png,10005_png,10006_png,10007_png,100002_png,100012_png,100022_png,100032_png,100042_png,100052_png,100062_png,100072_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "BG2_png",
+			"type": "image",
+			"url": "assets/BG2.png"
+		},
+		{
+			"name": "10000_png",
+			"type": "image",
+			"url": "assets/站/10000.png"
+		},
+		{
+			"name": "10001_png",
+			"type": "image",
+			"url": "assets/站/10001.png"
+		},
+		{
+			"name": "10002_png",
+			"type": "image",
+			"url": "assets/站/10002.png"
+		},
+		{
+			"name": "10003_png",
+			"type": "image",
+			"url": "assets/站/10003.png"
+		},
+		{
+			"name": "10004_png",
+			"type": "image",
+			"url": "assets/站/10004.png"
+		},
+		{
+			"name": "10005_png",
+			"type": "image",
+			"url": "assets/站/10005.png"
+		},
+		{
+			"name": "10006_png",
+			"type": "image",
+			"url": "assets/站/10006.png"
+		},
+		{
+			"name": "10007_png",
+			"type": "image",
+			"url": "assets/站/10007.png"
+		},
+		{
+			"name": "100002_png",
+			"type": "image",
+			"url": "assets/跑/10000.png"
+		},
+		{
+			"name": "100012_png",
+			"type": "image",
+			"url": "assets/跑/10001.png"
+		},
+		{
+			"name": "100022_png",
+			"type": "image",
+			"url": "assets/跑/10002.png"
+		},
+		{
+			"name": "100032_png",
+			"type": "image",
+			"url": "assets/跑/10003.png"
+		},
+		{
+			"name": "100042_png",
+			"type": "image",
+			"url": "assets/跑/10004.png"
+		},
+		{
+			"name": "100052_png",
+			"type": "image",
+			"url": "assets/跑/10005.png"
+		},
+		{
+			"name": "100062_png",
+			"type": "image",
+			"url": "assets/跑/10006.png"
+		},
+		{
+			"name": "100072_png",
+			"type": "image",
+			"url": "assets/跑/10007.png"
+		}
+	]
+}
