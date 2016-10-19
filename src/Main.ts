@@ -77,6 +77,19 @@ class Pole extends egret.DisplayObjectContainer {
          this.MoveAni.push(texture);
          texture = RES.getRes("100072_png");
          this.MoveAni.push(texture);
+         texture = RES.getRes("100082_png");
+         this.MoveAni.push(texture);
+         texture = RES.getRes("100092_png");
+         this.MoveAni.push(texture);
+         texture = RES.getRes("100102_png");
+         this.MoveAni.push(texture);
+         texture = RES.getRes("100112_png");
+         this.MoveAni.push(texture);
+         texture = RES.getRes("100122_png");
+         this.MoveAni.push(texture);
+         texture = RES.getRes("100132_png");
+         this.MoveAni.push(texture);
+
     }
     
     public PlayAni(Ani:Array<egret.Texture>){
@@ -166,7 +179,7 @@ class MoveSta implements Sta{
                 this.timer.stop();
         //        this.Player.Modle=-1;
        //         console.log("1");
-               if(this.LeastTime>-10) {this.Player.Idle();}//意味着是走停不是逼停
+               if(this.LeastTime>-10) {this.Player.Idle();}
              }
         }, this);
         this.timer.start();
@@ -301,7 +314,7 @@ class Main extends egret.DisplayObjectContainer {
      * Create a game scene
      */
     private createGameScene():void {
-        var sky:egret.Bitmap = this.createBitmapByName("BG2_png");
+        var sky:egret.Bitmap = this.createBitmapByName("a_png");
         this.addChild(sky);
         var stageW:number = this.stage.stageWidth;
         var stageH:number = this.stage.stageHeight;

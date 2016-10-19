@@ -76,6 +76,18 @@ var Pole = (function (_super) {
         this.MoveAni.push(texture);
         texture = RES.getRes("100072_png");
         this.MoveAni.push(texture);
+        texture = RES.getRes("100082_png");
+        this.MoveAni.push(texture);
+        texture = RES.getRes("100092_png");
+        this.MoveAni.push(texture);
+        texture = RES.getRes("100102_png");
+        this.MoveAni.push(texture);
+        texture = RES.getRes("100112_png");
+        this.MoveAni.push(texture);
+        texture = RES.getRes("100122_png");
+        this.MoveAni.push(texture);
+        texture = RES.getRes("100132_png");
+        this.MoveAni.push(texture);
     };
     p.PlayAni = function (Ani) {
         var count = 0;
@@ -155,7 +167,7 @@ var MoveSta = (function () {
                 //         console.log("1");
                 if (_this.LeastTime > -10) {
                     _this.Player.Idle();
-                } //意味着是走停不是逼停
+                }
             }
         }, this);
         this.timer.start();
@@ -274,7 +286,7 @@ var Main = (function (_super) {
      * Create a game scene
      */
     p.createGameScene = function () {
-        var sky = this.createBitmapByName("BG2_png");
+        var sky = this.createBitmapByName("a_png");
         this.addChild(sky);
         var stageW = this.stage.stageWidth;
         var stageH = this.stage.stageHeight;

@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,BG2_png,10000_png,10001_png,10002_png,10003_png,10004_png,10005_png,10006_png,10007_png,100002_png,100012_png,100022_png,100032_png,100042_png,100052_png,100062_png,100072_png",
+			"keys": "bg_jpg,egret_icon_png,description_json,10000_png,10001_png,10002_png,10003_png,10004_png,10005_png,10006_png,10007_png,100002_png,100012_png,100022_png,100032_png,100042_png,100052_png,100062_png,100072_png,10008_png,10009_png,10010_png,10011_png,10012_png,10013_png,a_png",
 			"name": "preload"
 		}
 	],
@@ -20,11 +20,6 @@
 			"name": "description_json",
 			"type": "json",
 			"url": "config/description.json"
-		},
-		{
-			"name": "BG2_png",
-			"type": "image",
-			"url": "assets/BG2.png"
 		},
 		{
 			"name": "10000_png",
@@ -105,6 +100,41 @@
 			"name": "100072_png",
 			"type": "image",
 			"url": "assets/跑/10007.png"
+		},
+		{
+			"name": "10008_png",
+			"type": "image",
+			"url": "assets/站/10008.png"
+		},
+		{
+			"name": "10009_png",
+			"type": "image",
+			"url": "assets/站/10009.png"
+		},
+		{
+			"name": "10010_png",
+			"type": "image",
+			"url": "assets/站/10010.png"
+		},
+		{
+			"name": "10011_png",
+			"type": "image",
+			"url": "assets/站/10011.png"
+		},
+		{
+			"name": "10012_png",
+			"type": "image",
+			"url": "assets/站/10012.png"
+		},
+		{
+			"name": "10013_png",
+			"type": "image",
+			"url": "assets/站/10013.png"
+		},
+		{
+			"name": "a_png",
+			"type": "image",
+			"url": "assets/a.png"
 		}
 	]
 }
